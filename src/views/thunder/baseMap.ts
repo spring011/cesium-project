@@ -16,7 +16,7 @@ export function initViewer() {
     // terrainProvider:terrainProvider
     imageryProvider: new Cesium.UrlTemplateImageryProvider({
       // url: `${import.meta.env.VITE_BASE_baseCESIUMMAPURL}/lixianditu/map/L{_z}/{_y}/{_x}.png`, //服务地址
-     url: 'http://{s}.tianditu.com/DataServer?T=img_w&X={x}&Y={y}&L={z}&tk=816517e17d1cc31c6eec03ef9fc4bb5b',
+     url: 'https://{s}.tianditu.com/DataServer?T=img_w&X={x}&Y={y}&L={z}&tk=816517e17d1cc31c6eec03ef9fc4bb5b',
       subdomains: ['t0', 't1', 't2', 't3', 't4', 't5', 't6', 't7'],
       maximumLevel: 18,
       minimumLevel: 1,
