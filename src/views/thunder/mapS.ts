@@ -5,7 +5,7 @@ import plusImage from '@/images/plus-white.png';
 import chinaJson from './china.json';
 import { initViewer } from './baseMap';
 
-let sdswStore = {}
+let sdswStore = {detailObj: {}}
 
 let viewer, camera;
 export function initCesium() {
