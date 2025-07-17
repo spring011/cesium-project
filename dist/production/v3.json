@@ -1,1 +1,0 @@
-{"tilejson":"2.0.0","name":"Basic preview","minzoom":0,"maxzoom":20,"bounds":[70.9825434,4.9997288,140.9979062,54.1351308],"format":"pbf","type":"baselayer","tiles":["/map/data/openmaptiles/{z}/{x}/{y}.pbf"],"center":[105.9902248,29.5674298,4]}
